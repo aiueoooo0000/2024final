@@ -1,0 +1,195 @@
+.members {
+    background: url(../images/back/star.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+.members img{
+    margin: 0px 0 0 -400px;
+}
+
+.members dt{
+    margin: -60px 0 0 -280px;
+}
+
+.class{
+    text-align: left;
+    border: 1px solid #333;
+}
+
+.line { 
+    text-decoration: underline dotted rgb(173, 169, 169) 
+}
+
+.container{
+    width:220px;
+    height: 200px;
+    position: relative;
+}
+
+.picture img{
+    margin: -100px 0 0 -300px;
+}
+
+.picture dt{
+    transform: translate(17%, -100%);
+}
+
+.container dt {
+    position: absolute;
+    top:-150px;
+    left:-300px;
+    transform: translate(100%, -100%);
+    padding: 0px;
+    margin:0px;
+}
+
+.rank{
+    width:220px;
+    height: 200px;
+    position: relative;
+}
+
+.rank p{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-130%, 30%);
+    padding:0;
+    margin:0;
+}
+
+.rank img{
+    max-width: 150%;
+    height: 150%;
+    margin: -75px 0 0 -280px;
+}
+
+.voice{
+    width:220px;
+    height: 200px;
+    position: relative;
+}
+
+.voice p{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(260%, -880%);
+    padding:0;
+    margin:0;
+}
+
+.voice img{
+    max-width: 150%;
+    height: 150%;
+    margin: -500px 0 0 200px;
+}
+
+.voice audio{
+    max-width: 120%;
+    transform: translate(87%, -300%);
+}
+
+.member-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: "Yomogi", sans-serif;
+}
+
+.member-list li {
+    flex-shrink: 0;
+    width: 300px;
+    margin-left: 75px;
+}
+
+.member-list li dl {
+    position: absolute;
+    top:50;
+    left:10;
+    padding:0;
+    margin:0;
+}
+
+.member-list li:first-child {
+    margin-left: 0;
+}
+
+
+@media (max-width: 800px) {
+    .members{
+        text-align:center;
+        padding-top: 100px;
+    }
+
+    .picture img{
+        margin: -50px 0 0 0px;
+        width: 220px;
+        height: 270px;
+    }
+
+    .picture dt{
+        transform: translate(24%, 60%);
+    }
+
+    .member-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .member-list li {
+        width: 300px;
+        margin-left: 30px;
+    }
+    
+
+    .container dt {
+        position: absolute;
+        top: 0px;
+        left:-300px;
+        transform: translate(58%, 55%);
+        padding:0px;
+        margin:0px;
+    }
+
+    .rank p {
+        position: absolute;
+        top:-10px;
+        left:15px;
+        transform: translate(-30%, 100%);
+        padding:0;
+        margin:0;
+    }
+    
+    .rank img {
+        max-width: 130%;
+        height: 130%;
+        margin: 10px 0 0 -125px;
+    }
+
+    .voice p{
+        position: absolute;
+        top:0;
+        left:0;
+        transform: translate(200%, 350%);
+        padding:0;
+        margin:0;
+    }
+
+    .voice img{
+        max-width: 130%;
+        height: 130%;
+        margin: 0px 0 0 150px;
+    }
+
+    .voice audio{
+        max-width: 100%;
+        transform: translate(83%, -300%);
+    }
+
+}
